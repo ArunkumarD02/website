@@ -1,0 +1,675 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+.header{
+    margin: 20px;
+    display: flex; 
+    justify-content: space-between;
+}
+.header ul li{
+    display: inline;
+    cursor: pointer;
+    margin-right: 15px;
+    color: #393534;
+}
+.header ul .home li{
+    color: #00B894;
+}
+.background{
+    background-image: url(picture18.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    width: 100%;
+    height: 60vh;
+    padding: 60px 0;
+    margin-top: 30px;
+}
+
+.heading{
+    color: white;
+    font-size: 25px;
+    background: transparent;
+}
+.heading span{
+    color: #00B894;
+} 
+
+.background .hero-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.primary-btn{
+   
+    border-radius: 1px solid green;
+}
+.header h2{
+    color: #00B894;
+}
+.header span{
+    color: #666865;
+}
+.header ul li .home{
+    color: #00B894;
+}
+.header ul{
+    display: flex;
+}
+.home li{
+    color: #00B894;
+}
+.primary-btn button{
+    margin-top: 30px;
+    padding: 10px 30px;
+    border-color: #00B894;
+    background: transparent;
+    cursor: pointer;
+    color: white;
+}
+.iconsrow1{
+    padding: 20px 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.section1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.imagecontent img{
+    height: 600px;
+    width: 500px;
+}
+.newcollection .imagecontent img{
+    height: 200px;
+    width: 180px;
+}
+.collectioncenter{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.iconsrow1 p{
+    font-size: 10px;
+}
+.printdesign h3{
+    color: #20B597;
+}
+.newcollection{
+    background-color: #E8EFFF;
+}
+.newcollection h1{
+    font-size: 35px;
+    padding-top: 50px;
+}
+.imagesection{
+    padding-top: 50px;
+    padding: 50px 160px;
+}
+.collectioncenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer .collectioncenter h1{
+    font-size: 35px;
+    padding-top: 50px;
+    color: white;
+}
+.featured h1{
+    font-size: 35px;
+    padding-top: 50px;
+}
+.featured hr{
+    margin-left: 610px;
+    border: 2px solid #10B799;
+    width: 150px;
+}
+
+.imagesection-button{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 270px 50px 270px;
+}
+.imagesection-button button{
+    padding: 5px;
+    cursor: pointer;
+}
+.all button{
+    background-color: #00B894;
+    border: #00B894;
+    padding: 7px 20px;
+    color: white;
+}
+.end{
+    background: url(picture19.jpeg);
+}
+.p1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 70px;
+}
+.p2{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.customer h1{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 50px;
+}
+.customer hr{
+    margin-left: 610px;
+    border: 2px solid #10B799;
+    width: 150px;
+}
+.circleimage-section1 img{
+    border-radius: 50px;
+    width: 100px;
+    margin: 30px 0;
+}
+.circleimage p{
+    text-align: center;
+    font-size: 15px;
+}
+.olivia{
+    color: #00B894;
+    padding-top: 10px;
+}
+.lastpicture{
+    display: flex;
+}
+.circleimage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lastpicture img{
+    width: 60px;
+    border-radius: 50px;
+}
+.whiteunderline{
+    width: 100px;
+    border-bottom: 5px solid white;
+}
+.customer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.newsletter .customer p{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+.newsletter input{
+    padding: 10px;
+    margin: 20px 0;
+}
+.latestnews-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.latestnews h1{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 50px;
+}
+.latestnews hr{
+    margin-left: 610px;
+    border: 2px solid #10B799;
+    width: 150px;
+}
+.latestnews-images{
+    margin-top: 30px;
+}
+.footer{
+    background-color: #2D3236;
+    margin-top: 50px;
+}
+.footer h3{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 50px;
+}
+.footer hr{
+    margin-left: 610px;
+    border: 2px solid #10B799;
+    width: 150px;
+}
+.lastfooter{
+    display: flex;
+}
+.imagecontent{
+    position: relative;
+}
+.bottomleft{
+    position: absolute;
+    bottom: 2px;
+    left: 0px;
+}
+.bottomleft button{
+    padding: 5px 60px 5px 3px;
+    background-color: black;
+    color: white;
+}
+.bottomright{
+    position: absolute;
+    bottom: 2px;
+    right: 0px;
+}
+.bottomright button{
+    padding: 5px 10px;
+    background-color: grey;
+    color: white;
+}
+.imagecontent img{
+    width: 180px;
+    height: 200px;
+}
+.fleximage{
+    display: flex;
+    justify-content: space-between;
+}
+.imagecontent{
+    position: relative;
+}
+.women button:hover {
+    background-color: #00B894;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.fleximage button{
+    cursor: pointer;
+}
+.hover{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.hover:hover{
+    opacity: 0.5;
+}
+.fleximage button{
+    padding: 5px;
+    background: transparent;
+    border: 1px solid white;
+}
+.addtocart button{
+    margin-top: 4px;
+    padding: 5px 15px;
+    color: white;
+    border: 1px solid white;
+    padding-bottom: 4px;
+    background-color: black;
+}
+.secondbutton{
+    margin: 0 5px;
+}
+.secondbtncolour button{
+    background-color: #10B799;
+}
+.topleft{
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}
+.topleft button{
+    padding: 5px 10px;
+    color: black;
+    background: transparent;
+}
+.topright{
+    position: absolute;
+    top: 4px;
+    right: 4px;
+}
+.topright button{
+    padding: 5px 10px;
+    background: transparent;
+    color: black;
+}
+.allbuttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 10px;
+}
+.allbuttons button{
+    padding: 5px;
+}
+.all button{
+    padding: 7px;
+    border-radius: 3px;
+}
+.newsinput{
+    position: relative;
+}
+.newsinput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newsbutton{
+    position: absolute;
+    left: 345px;
+}
+.newsbutton button{
+    padding: 4px 5px;
+    background-color: #10B799;
+    border: #10B799;
+    padding-top: 8px;
+    padding-left: 5px;
+}
+.newsinput input{
+    padding-right: 200px;
+}
+.newcollection img{
+    width: 150px;
+    height: 150px;
+}
+.latestnews{
+    background-color: white;
+}
+.latestnews-images img{
+    width: 250px;
+    height: 200px;
+}
+.latestnews-images hr{
+    margin-top: 8px;
+    margin-left: 0px;
+    width: 100px;
+}
+.lastp3{
+    font-size: 13px;
+}
+.lastp1{
+    font-weight: bold;
+}
+.latestnews-images button{
+    background-color: #00B894;
+    color: white;
+    padding: 10px;
+    border: #00B894;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.topleft button:hover {
+    background-color: #00B894;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.topright button:hover {
+    background-color: #00B894;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.newcollection .imagesection .section1 img{
+    cursor: pointer;
+    width: 180px;
+    height: 220px;
+}
+
+.women .bottomleft button{
+    padding: 5px;
+    padding-right: 40px;
+}
+.womenn button:hover {
+    background-color: #00B894;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.men button:hover {
+    background-color: #00B894;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.newsletter .customer{
+    background-color: #10B799;
+    padding: 30px 0;
+    padding-bottom: 50px;
+}
+.newsletter{
+    margin-top: 30px;
+}
+.lastfooter .dokan{
+    font-size: 50px;
+}
+.lastfooter p{
+    color: white;
+}
+.lastfooter .dokan span{
+    color: #00B894;
+}
+.lastfooter{
+    display: flex;
+    padding: 30px;
+    padding-left: 90px;
+}
+.footerlorem{
+    font-size: 11px;
+    margin-top: 5px;
+}
+.main p{
+    color: #00B894;
+    margin-top: 5px;
+}
+.main span{
+    color: white;
+}
+.finalicons{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+.latestnews-images img{
+    cursor: pointer;
+}
+.yourname{
+    display: flex;
+}
+.subject{
+    display: flex;
+}
+
+.yourname input{
+    margin: 0;
+    padding: 0;
+    margin: 8px 30px;
+    padding: 10px 30px 10px 20px ;
+    background: transparent;
+    border: 1px solid white;
+}
+.subject input{
+    margin: 0;
+    padding: 0;
+    margin: 8px 30px;
+    padding: 10px 30px 10px 20px;
+    background: transparent;
+    border: 1px solid white ;
+}
+.message input{
+    margin: 0;
+    padding: 0;
+    padding: 5px;
+    margin: 8px 30px;
+    padding-bottom: 50px;
+    padding-right: 315px;
+    padding-left: 20px;
+    background: transparent;
+    border: 1px solid white;
+}
+.finalbtn button{
+    background-color: #00B894;
+    margin: 10px;
+    margin-left: 30px;
+    padding: 10px 20px;
+    color: white;
+    border: #00B894;
+}
+.finalfooter{
+    text-align: center;
+    background-color: gray;
+}
+.finalfooter p{
+    padding: 20px 0;
+    color: white;
+}
+.imagecontent img{
+    cursor: pointer;
+}
+.firstcart{
+    display: flex;
+}
+.firstcart h5{
+    margin-top: 4px;
+}
+.finalbtn button{
+    cursor: pointer;
+}
+.menu{
+    cursor: pointer;
+    display: none;
+}
+.nav ul li span{
+    color: #00B894;
+}
+.div ul li{
+    margin-top: 30px;
+}
+.underline{
+    border-bottom: 5px solid;
+    width: 100px;
+    color: #00B894;
+}
+.lastfooter{
+    padding: 20px 0;
+}
+
+@media (max-width: 820px){
+    .nav ul {
+        flex-direction: column;
+        padding: 0;
+        display: none;   
+    }
+    .latestnews-images{
+        flex-direction: column;
+    }
+    .firstcart{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .heading{
+        font-size: 15px;
+    }
+    .newcollection .section1{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-content: center;
+    }
+    .featured .pixels .imagesection .section1{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-content: center;
+    }
+    .lastone .imagesection .section1{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-content: center;
+    }
+  
+    .circleimage img{
+        margin: 0;
+        margin: 10px 200px;
+    }
+    .lastpicture img{
+        padding-left: 0;
+        margin: 10px 0px;
+    }
+    .lastfooter .labels input{
+        padding: 10px 0 10px 6px;
+    }  
+    .lastfooter{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .iconsrow1{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .end p{
+        font-size: 25px;
+    }
+    .circleimage p{
+        font-size: 5px;
+    }
+    .finalfooter p{
+        font-size: 10px;
+    }
+    .footer .collectioncenter h1{
+        font-size: 20px;
+    }
+    .lastfooter p{
+        font-size: 9px;
+    }
+    .labels .yourname{
+        flex-direction: column
+    }
+    .subject {
+        flex-direction: column;
+    }
+    .allbuttons button{
+        font-size: 10px;
+    }
+    .labels{
+        margin-right: 150px;
+    }
+}
